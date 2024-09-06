@@ -2,6 +2,7 @@ import LandingCarousel from "./components/LandingCarousel"
 import "./App.css"
 import Navbar from "./components/Navbar"
 import WhatWeDo from "./components/WhatWeDo"
+import TaskCarousel from "./components/TaskCarousel"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <LandingCarousel/>
     <WhatWeDo/>
+    <TaskCarousel/>
     </div>
   )
 }
