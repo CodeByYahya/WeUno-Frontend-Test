@@ -1,9 +1,11 @@
-
-
 /* media query for screens smaller than 637px */
 @media screen and (max-width: 637px) {
-  .control-dots{
+  .control-dots {
     justify-content: end;
     display: flex;
-    }
+   
+  }
+  .slick-track {
+    margin-left: 100px;
+  }
 }
