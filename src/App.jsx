@@ -5,6 +5,7 @@ import WhatWeDo from "./components/WhatWeDo"
 import  Task from "./components/Ticket"
 import Cuisine from "./components/Cuisine"
 import Experience from "./components/Experience"
+import Map from "./components/Map"
 
 function App() {
 
@@ -15,8 +16,9 @@ function App() {
     <LandingCarousel/>
     <WhatWeDo/>
     <Task/>
-    <Experience/>
     <Cuisine/>
+    <Experience/>
+    <Map/>
     </div>
   )
 }

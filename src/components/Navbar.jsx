@@ -37,15 +37,15 @@ const Navbar = () => {
         isOpen && "bg-custom-gradient"
       } `}
     >
-      <div className="mx-auto px-2 sm:px-6 lg:px-8">
-        <div className="relative flex items-center justify-between px-3 sm:px-5 h-16">
+      <div className="mx-auto px-2  md:px-8">
+        <div className="relative flex items-center justify-between px-3 md:px-5 h-16">
           {/* Brand/Logo */}
           <div className="flex-shrink-0">
-            <img className="w-36 sm:w-52" src={Logo} alt="Logo" />
+            <img className="w-36 md:w-52" src={Logo} alt="Logo" />
           </div>
 
           {/* Mobile menu button */}
-          <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
+          <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
             <button
               onClick={toggleMenu}
               type="button"
@@ -91,7 +91,7 @@ const Navbar = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden sm:flex sm:items-center sm:justify-end sm:flex-1">
+          <div className="hidden md:flex md:items-center md:justify-end md:flex-1">
             <ul className="flex items-center space-x-4">
               {socialIcons.map((icon, index) => (
                 <li
@@ -120,7 +120,7 @@ const Navbar = () => {
 
       {/* Mobile Menu with yellow background */}
       <div
-        className={`sm:hidden ${isOpen ? "block" : "hidden"}`}
+        className={`md:hidden ${isOpen ? "block" : "hidden"}`}
         id="mobile-menu"
       >
         <ul className="pt-2 pb-3 ">

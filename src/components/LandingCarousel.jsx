@@ -17,7 +17,7 @@ const LandingCarousel = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum.
         </p>
-      <Button text={"Book reservation now"}/>
+      <Button text="Book reservation now"/>
       </div>
       {/* Carousel */}
       <Carousel
