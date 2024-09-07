@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function Map() {
   return (
-    <div className="w-full flex justify-center items-center bg-custom-gradient">
+    <div className="w-full flex justify-center items-center ">
       <div className="w-[90%] flex flex-wrap flex-col-reverse md:flex-row  justify-between items-center">
         <div className="w-full md:w-[50%] flex justify-end">
           <img src={MapImg} alt="" className="h-[50%]" />

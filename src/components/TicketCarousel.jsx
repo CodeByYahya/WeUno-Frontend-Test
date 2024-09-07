@@ -19,7 +19,7 @@ const TicketCarousel = (props) => {
   };
 
   return (
-    <div className="w-[115%] sm:w-full ms-0 sm:ms-14 flex justify-end bg-custom-gradient overflow-hidden">
+    <div className="w-[115%] sm:w-full ms-0 sm:ms-14 flex justify-end overflow-hidden">
       <Slider className={'w-full  '+width} {...settings} ref={sliderRef}>
         {images.map((image, index) => (
           <div 

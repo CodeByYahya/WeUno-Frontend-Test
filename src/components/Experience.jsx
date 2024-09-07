@@ -38,7 +38,7 @@ const images = [
 ];
 function Experience() {
   return (
-    <div className="w-full flex flex-col flex-wrap sm:flex-nowrap items-center overflow-hidden sm:justify-between sm:items-start bg-custom-gradient mt-52 sm:flex-row ">
+    <div className="w-full flex flex-col flex-wrap sm:flex-nowrap items-center overflow-hidden sm:justify-between sm:items-start mt-52 sm:flex-row ">
       <div className="w-[90%] sm:w-[20%] mb-10 ms-0 sm:ms-20">
         <h2 className="text-white text-start mb-4 text-3xl sm:text-5xl font-serif">
           Curate your experience as you like
