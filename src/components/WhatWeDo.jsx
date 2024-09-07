@@ -2,9 +2,9 @@ import BG from "../assets/BG2.png";
 import Play from "../assets/Play.png";
 const WhatWeDo = () => {
   return (
-    <div className="w-full flex my-10 flex-col items-center">
+    <div className="w-full flex my-10 flex-col items-center bg-custom-gradient">
       <div className="w-[90%] sm:w-[70%] mb-10">
-        <h2 className="text-white text-center mb-4 text-3xl sm:text-5xl font-serif ">
+        <h2 className="text-white text-center mb-4 text-4xl sm:text-5xl font-serif ">
           Mall Of: Endless Possibilites
         </h2>
         <p className="text-white text-center ">

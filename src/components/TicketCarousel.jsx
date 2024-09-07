@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useRef } from 'react';
 import Slider from 'react-slick';
 
@@ -9,40 +10,8 @@ const TicketCarousel = (props) => {
   // Create a reference to the Slider
   const sliderRef = useRef(null);
 
-  // // Settings for the carousel
-  // const settings = {
-  //   dots: false, // Disable dots
-  //   arrows: false, // Disable arrows
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  //   autoplay: true,        // Enable autoplay
-  //   autoplaySpeed: 2000,   // Time between each auto slide (in milliseconds)
-  //   centerMode: true,
-  //   centerPadding: '-5%', // Adjust if needed
-  //   responsive: [
-  //     {
-  //       breakpoint: 768,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 1,
-  //         centerMode: false,
-  //          centerPadding: '100'
-  //       }
-  //     }
-  //   ]
-  // };
 
-  // // Images data array
-  // const images = [
-  //   { id: 1, src: Swipe1, alt: 'Image 1', size: 'small', text: 'Little Krazy' },
-  //   { id: 2, src: Swipe2, alt: 'Image 2', size: 'big', text: 'Swipe Image 2' },
-  //   { id: 3, src: Swipe3, alt: 'Image 3', size: 'small', text: 'Swipe Image 3' },
-  //   { id: 4, src: Swipe4, alt: 'Image 4', size: 'big', text: 'Swipe Image 4' },
-  // ];
 
-  // Function to handle image click
   const handleImageClick = (index) => {
     if (sliderRef.current) {
       sliderRef.current.slickGoTo(index);
@@ -50,12 +19,12 @@ const TicketCarousel = (props) => {
   };
 
   return (
-    <div className="w-[110%] sm:w-full ms-14 flex justify-end overflow-hidden">
+    <div className="w-[115%] sm:w-full ms-0 sm:ms-14 flex justify-end bg-custom-gradient overflow-hidden">
       <Slider className={'w-full  '+width} {...settings} ref={sliderRef}>
         {images.map((image, index) => (
           <div 
             key={image.id} 
-            className={`relative ${image.size === 'small' ? 'h-96' : 'h-[420px]'} px-3  mb-10 sm:px-1 focus:outline-none`} // Tailwind classes for height and padding
+            className={`relative ${image.size === 'small' ? 'h-96 sm:h-[400px]' : 'h-96 sm:h-[480px]'} px-3  mb-10 sm:px-1 focus:outline-none`} // Tailwind classes for height and padding
             onClick={() => handleImageClick(index)}
           >
             <img 

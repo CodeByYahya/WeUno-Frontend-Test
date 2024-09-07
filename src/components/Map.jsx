@@ -3,13 +3,13 @@ import Button from "./Button";
 
 function Map() {
   return (
-    <div className="w-full flex justify-center items-center">
-      <div className="w-[90%] flex justify-between items-center">
-        <div className="w-[50%] flex justify-end">
+    <div className="w-full flex justify-center items-center bg-custom-gradient">
+      <div className="w-[90%] flex flex-wrap flex-col-reverse md:flex-row  justify-between items-center">
+        <div className="w-full md:w-[50%] flex justify-end">
           <img src={MapImg} alt="" className="h-[50%]" />
         </div>
-        <div className="w-[50%] flex justify-center">
-          <div className="w-full flex flex-col justify-center p-4 sm:p-16">
+        <div className="w-full md:w-[50%] flex justify-center">
+          <div className="w-full flex flex-col justify-center p-4 sm:px-16">
             <p className="text-white text-xs sm:text-sm mb-2 sm:mb-4">
               KhAWAJA YANI
             </p>

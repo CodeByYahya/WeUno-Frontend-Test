@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <div className="bg-custom-gradient min-h-screen">
+    <div className="bg-custom-gradient min-h-screen w-full">
     <Navbar/>
     <LandingCarousel/>
     <WhatWeDo/>

@@ -10,13 +10,31 @@ const settings = {
   arrows: false, // Disable arrows
   infinite: true,
   speed: 500,
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,        // Enable autoplay
   autoplaySpeed: 2000,   // Time between each auto slide (in milliseconds)
   centerMode: true,
   centerPadding: '-5%', // Adjust if needed
   responsive: [
+    {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        centerMode: false,
+         centerPadding: '100'
+      }
+    },
+    {
+      breakpoint: 860,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: false,
+         centerPadding: '100'
+      }
+    },
     {
       breakpoint: 768,
       settings: {
@@ -25,7 +43,8 @@ const settings = {
         centerMode: false,
          centerPadding: '100'
       }
-    }
+    },
+ 
   ]
 };
 
@@ -44,7 +63,7 @@ const Task = () => {
         <h2 className="text-white w-[80%] text-3xl sm:text-5xl font-serif">Book General Access ticket and enjoy the attractions for free</h2>
         <Button text="Book General Access Ticket"/>
       </div>
-    <TicketCarousel settings={settings} images={images} width={"w-[88vw]"}/>
+    <TicketCarousel settings={settings} images={images} width={"w-[88vw] "}/>
     </div>
   )
 }
