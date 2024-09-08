@@ -120,7 +120,7 @@ const Navbar = () => {
 
       {/* Mobile Menu with yellow background */}
       <div
-        className={`md:hidden ${isOpen ? "block" : "hidden"}`}
+        className={`md:hidden  ${isOpen ? "block" : "hidden"}`}
         id="mobile-menu"
       >
         <ul className="pt-2 pb-3 ">

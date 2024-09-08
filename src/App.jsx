@@ -6,6 +6,7 @@ import  Task from "./components/Ticket"
 import Cuisine from "./components/Cuisine"
 import Experience from "./components/Experience"
 import Map from "./components/Map"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <Cuisine/>
     <Experience/>
     <Map/>
+    <Footer/>
     </div>
   )
 }
