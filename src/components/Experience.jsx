@@ -40,7 +40,7 @@ function Experience() {
   return (
     <div className="w-full flex flex-col flex-wrap md:flex-nowrap items-center overflow-hidden md:justify-between md:items-start md:mt-36 md:flex-row ">
       <div className="w-[90%] md:w-[25%] mb-10 ms-0 md:ms-20">
-        <h2 className="text-white text-start mb-4 text-3xl w-[80%] md:w-full md:text-5xl font-serif">
+        <h2 className="text-white text-start mb-4 text-3xl w-[80%] md:w-full sm:text-5xl font-serif">
           Curate your experience as you like
         </h2>
           <Button text="Book Tickets" />

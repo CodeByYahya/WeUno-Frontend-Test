@@ -63,7 +63,7 @@ const Task = () => {
         <h2 className="text-white w-[80%] text-3xl sm:text-5xl font-serif">Book General Access ticket and enjoy the attractions for free</h2>
         <Button text="Book General Access Ticket"/>
       </div>
-    <div className="w-full ms-6">
+    <div className="w-full md:ms-6">
     <Carousel className="ms-20" settings={settings} images={images} width={"w-[88vw] "}/>
     </div>
       
