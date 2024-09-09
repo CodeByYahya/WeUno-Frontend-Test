@@ -1,5 +1,5 @@
 import Button from "./Button"
-import TicketCarousel from "./TicketCarousel"
+import Carousel from "./Carousel"
 import Swipe1 from "../assets/SwipeImage1.png";
 import Swipe2 from "../assets/SwipeImage2.png";
 import Swipe3 from "../assets/SwipeImage3.png";
@@ -50,10 +50,10 @@ const settings = {
 
 // Images data array
 const images = [
-  { id: 1, src: Swipe1, alt: 'Image 1', size: 'small', text: 'Little Krazy' },
-  { id: 2, src: Swipe2, alt: 'Image 2', size: 'big', text: 'Swipe Image 2' },
-  { id: 3, src: Swipe3, alt: 'Image 3', size: 'small', text: 'Swipe Image 3' },
-  { id: 4, src: Swipe4, alt: 'Image 4', size: 'big', text: 'Swipe Image 4' },
+  { id: 1, src: Swipe1, alt: 'Image 1', size: 'big', text: 'Little Krazy' },
+  { id: 2, src: Swipe2, alt: 'Image 2', size: 'small', text: 'Hawanimm Groves City' },
+  { id: 3, src: Swipe3, alt: 'Image 3', size: 'big', text: 'Picnic Market' },
+  { id: 4, src: Swipe4, alt: 'Image 4', size: 'small', text: 'Lucawong' },
 ];
 
 const Task = () => {
@@ -63,7 +63,10 @@ const Task = () => {
         <h2 className="text-white w-[80%] text-3xl sm:text-5xl font-serif">Book General Access ticket and enjoy the attractions for free</h2>
         <Button text="Book General Access Ticket"/>
       </div>
-    <TicketCarousel settings={settings} images={images} width={"w-[88vw] "}/>
+    <div className="w-full ms-6">
+    <Carousel className="ms-20" settings={settings} images={images} width={"w-[88vw] "}/>
+    </div>
+      
     </div>
   )
 }
