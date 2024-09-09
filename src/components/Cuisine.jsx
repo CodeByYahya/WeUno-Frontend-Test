@@ -15,10 +15,10 @@ function Cuisine() {
   return (
     <div className="w-full flex my-10 flex-col items-center">
       <div className="w-[90%] sm:w-[70%] mb-10">
-        <h2 className="text-white text-center mb-4 text-3xl sm:text-5xl font-serif">
+        <h2 className="text-white sm:text-center w-[70%] sm:w-full sm:mb-4 text-3xl sm:text-5xl font-serif">
           Experience the Finest  Cuisine
         </h2>
-        <p className="text-white text-center">
+        <p className="hidden sm:block text-white text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quo et
           saepe distinctio fugiat molestiae natus quis totam temporibus sequi
           aliquam quidem, repudiandae ipsam praesentium sit? Veniam distinctio

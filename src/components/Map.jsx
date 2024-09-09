@@ -13,7 +13,7 @@ function Map() {
             <p className="text-white text-xs sm:text-sm mb-2 sm:mb-4">
               Experience The Groves
             </p>
-            <h1 className="text-white text-5xl sm:text-5xl font-serif font-semibold w-full sm:w-[80%]">
+            <h1 className="text-white text-4xl sm:text-5xl font-serif w-full sm:w-[80%]">
              Find Your Place
             </h1>
             <p className="text-white mt-4 text-xs sm:text-base font-sans max-w-xs sm:max-w-md">
